@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+header{
+background-image: url(../images/Background\ image_edited.png);
+background-size: cover;
+height: 50vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    border-bottom: 0.1rem solid rgba(245, 245, 245, 0.329);
+}
+
+#logo{
+    display: flex;
+    width: 30vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    justify-content: space-around;
+    height: 1.5rem;
+}
+
+#listado{
+    display: flex;
+    width: 90vh;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10vh;
+
+   
+}
+
+li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+}
