@@ -1,51 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+h1 {
+  color: red;
+}
+
 * {
-    padding: 0;
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    
+body {
+  padding: 2rem;
+  background-image: url("../img/Gaming-Cloud.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-header{
-background-image: url(../images/Background\ image_edited.png);
-background-size: cover;
-height: 50vh;
+h1 {
+  color: white;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    height: 10vh;
-    border-bottom: 0.1rem solid rgba(245, 245, 245, 0.329);
+form {
+  border: 0.2rem solid black;
+  padding: 1rem;
+  border-radius: 3rem;
+  background-color: lightsteelblue;
+  opacity: 95%;
 }
 
-#logo{
-    display: flex;
-    width: 30vh;
-    justify-content: space-around;
-    align-items: center;
+label,
+fieldset {
+  display: block;
+  font-weight: 700;
 }
 
-img{
-    justify-content: space-around;
-    height: 1.5rem;
+input {
+  border: 1px solid midnightblue;
+  padding: 0.5rem;
+  margin: 1rem;
 }
 
-#listado{
-    display: flex;
-    width: 90vh;
-    justify-content: space-around;
-    align-items: center;
-    padding-right: 10vh;
-
-   
+fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-li{
-    list-style: none;
-    font-family: 'Open Sans', sans-serif;
-    color: whitesmoke;
+button {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 228, 181, 0.959);
+  border-radius: 1rem;
+  border: 0.1rem solid white;
+  font-weight: 700;
+  text-transform: uppercase;
 }
+
+.center {
+  width: 18rem;
+  margin: 1rem auto;
+}
+/*# sourceMappingURL=style.css.map */
